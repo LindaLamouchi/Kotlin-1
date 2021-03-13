@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FastWay</string>
+    <string name="Entrer_login">Email or Username</string>
+    <string name="Entrer_Password">Password</string>
+    <string name="MoveTo_SignUp">Sign Up</string>
+    <string name="GetNewPass">Forget password?</string>
+    <string name="loginButton">Log In</string>
+    <string name="FName">FName</string>
+    <string name="LName">LName</string>
+</resources>
