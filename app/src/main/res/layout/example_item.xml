@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/text_view_1"
             android:layout_toEndOf="@+id/image_view"
-            android:text="Attestation de Pres....."
+            android:text="Details de Pres....."
             android:textColor="@android:color/black"
             android:textSize="10sp"
             android:textStyle="normal" />
