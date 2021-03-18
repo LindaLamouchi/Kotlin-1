@@ -7,16 +7,43 @@
     tools:context=".DisplaySigned">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="392dp"
         android:id="@+id/recycler_view"
-        android:layout_height="572dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginEnd="1dp"
+        android:layout_width="360dp"
+        android:layout_height="578dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
         android:clipToPadding="false"
-        tools:listitem="@layout/example_item"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.272"
+        tools:listitem="@layout/example_item" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#FF8F00"
+        android:onClick="addItem"
+        android:text="Add Item"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button7"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/recycler_view" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+
+        android:backgroundTint="#FF8F00"
+        android:onClick="deleteItem"
+        android:text="delete item"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="@+id/recycler_view" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
