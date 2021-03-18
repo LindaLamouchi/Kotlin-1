@@ -8,16 +8,17 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"
-        android:layout_width="360dp"
-        android:layout_height="578dp"
+        android:layout_width="362dp"
+        android:layout_height="588dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:clipToPadding="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.272"
+        app:layout_constraintVertical_bias="0.824"
         tools:listitem="@layout/example_item" />
 
     <Button
@@ -44,6 +45,31 @@
         android:text="delete item"
         app:layout_constraintBaseline_toBaselineOf="@+id/button6"
         app:layout_constraintEnd_toEndOf="@+id/recycler_view" />
+
+    <TextView
+        android:id="@+id/firstn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/recycler_view"
+        tools:layout_editor_absoluteX="29dp" />
+
+    <TextView
+        android:id="@+id/lsname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/recycler_view"
+        app:layout_constraintStart_toEndOf="@+id/firstn" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="59dp"
+        android:layout_height="29dp"
+        android:layout_marginEnd="44dp"
+        android:text="out"
+        app:layout_constraintBottom_toTopOf="@+id/recycler_view"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

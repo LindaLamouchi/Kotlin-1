@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "571654445095",
+    "firebase_url": "https://kotlin-1-d76d7-default-rtdb.firebaseio.com",
+    "project_id": "kotlin-1-d76d7",
+    "storage_bucket": "kotlin-1-d76d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571654445095:android:455109dc7d8cb5f4eed602",
+        "android_client_info": {
+          "package_name": "com.Ideal.fastway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571654445095-rdh7o82rislgkjc0jei6c5pkvhevgpdg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5AmygAqqukwnaqU8dUy7L5L2FiFwdtC8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571654445095-rdh7o82rislgkjc0jei6c5pkvhevgpdg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
